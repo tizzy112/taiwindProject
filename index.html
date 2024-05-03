@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tizzy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily:{
+            subscript:['Inconsolata', 'san-serif'],
+          },
+
+          colors: {
+            clifford: '#da373d',
+            primaryColor: 'WHITE',
+            secondaryColor:'blue',
+            },
+            animation: {
+  wiggle: 'wiggle 1s ease-in-out infinite',
+},
+keyframes: {
+  wiggle: {
+    '0%, 100%': { transform: 'rotate(-10deg)' },
+    '50%': { transform: 'rotate(10deg)' },
+  },
+},
+        },
+      },
+    };
+  </script>
+</head>
+<body>
+    <div class="w-full p-4">
+      <nav class="flex justify-between mr-10">
+        <h3 class="ml-10 text-sm capitalize hover:animate-wiggle hover:text-secondaryColor">tizzy</h3>
+        <div class="md:flex sm:flex ">
+            <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Home</div>
+            <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">About</div>
+            <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Skills</div>
+            <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Project</div>
+            <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Contact</div>
+        </div>
+    </nav>
+       
+    </div>
+    <!--main section-->
+    <div id="home"class="w-full h-[50vh] text-center mt-20">
+        <div class="max-w[1240px] w-full mx-auto p-2 flex justify-center items-center">
+            <div>
+                <p class="uppercase text-sm text-gray-600">great to have you here😊</p>
+                <h2 class="py-4 text-gray-400 text-lg">Hi, I am <span>tizzy</span></h2>
+                <h2 class="py-2 text-gray-700">A full-stack Web Developer</h2>
+                <p class="py-4 text-sm text-gray-600 max-w[70%] m-auto">i am full stack developer with very good knowledge in building web application</p>
+
+                <!--icon connection section-->
+                <div class="flex items-center justify-between m-auto max-w-screen-sm: mx-10">
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></div>
+                    <div class="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-105 ease-in duration-300"><a   href=""><ion-icon name="logo-whatsapp"></ion-icon></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+          <!-- Content Section -->
+
+          <div class="max-w-screen-sm:grid grid-cols-1 mx-10 max-w-[1240px] m-auto grid grid-cols-1 md:grid-cols-3 gap-8 ">
+            <div class="md:col-span-2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic veritatis quas laborum similique voluptatem non eum quos dolore, tempora aperiam, explicabo enim veniam repellat? Qui ipsum nam earum officiis soluta minima quibusdam mollitia velit adipisci tenetur ducimus quae ea in animi fugit omnis eveniet cumque sapiente numquam atque, iure beatae! Mollitia beatae assumenda facere rem nisi hic sed numquam iste. Accusantium vero reprehenderit molestias id? Impedit error laboriosam nostrum ducimus vero optio recusandae laudantium exercitationem deleniti iste, dolorum nam unde eius earum reiciendis nulla, voluptatibus laborum est, nobis natus maxime. <span>Iure tempora voluptatibus cumque aliquam architecto. Sapiente perferendis iure dolores!</span>
+                </p>
+            </div>
+            <div class="max-w-screen-sm:grid grid-cols-1 mx-10 w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300">
+                <img src="./images/mypic.jpg" alt="Image of a house" width="200px" height="200px">
+            </div>
+            <div class="md:col-span-2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta deleniti quibusdam ipsum dolorum repellendus, nulla laborum at ut vero quia. Corrupti cupiditate consectetur deleniti consequatur voluptatibus neque similique debitis veritatis. Sunt nulla repellendus neque, reprehenderit saepe obcaecati numquam repudiandae placeat voluptatum pariatur error impedit iure labore, debitis unde minus nemo. Nisi ratione odio veniam nemo voluptas quo a? Nobis animi optio corrupti, omnis esse soluta repudiandae quam enim quis veniam quaerat odit. Sed impedit ipsa molestias harum adipisci, deserunt fugit blanditiis. Recusandae, atque laboriosam! Hic veniam maxime reprehenderit voluptatum aperiam minima quos a laboriosam fuga, eveniet repudiandae eius quam.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta deleniti quibusdam ipsum dolorum repellendus, nulla laborum at ut vero quia. Corrupti cupiditate consectetur deleniti consequatur voluptatibus neque similique debitis veritatis. Sunt nulla repellendus neque, reprehenderit saepe obcaecati numquam repudiandae placeat voluptatum pariatur error impedit iure labore, debitis unde minus nemo. Nisi ratione odio veniam nemo voluptas quo a? Nobis animi optio corrupti, omnis esse soluta repudiandae quam enim quis veniam quaerat odit. Sed impedit ipsa molestias harum adipisci, deserunt fugit blanditiis. Recusandae, atque laboriosam! Hic veniam maxime reprehenderit voluptatum aperiam minima quos a laboriosam fuga, eveniet repudiandae eius quam.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta deleniti quibusdam ipsum dolorum repellendus, nulla laborum at ut vero quia. Corrupti cupiditate consectetur deleniti consequatur voluptatibus neque similique debitis veritatis. Sunt nulla repellendus neque, reprehenderit saepe obcaecati numquam repudiandae placeat voluptatum pariatur error impedit iure labore, debitis unde minus nemo. Nisi ratione odio veniam nemo voluptas quo a? Nobis animi optio corrupti, omnis esse soluta repudiandae quam enim quis veniam quaerat odit. Sed impedit ipsa molestias harum adipisci, deserunt fugit blanditiis. Recusandae, atque laboriosam! Hic veniam maxime reprehenderit voluptatum aperiam minima quos a laboriosam fuga, eveniet repudiandae eius quam.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta deleniti quibusdam ipsum dolorum repellendus, nulla laborum at ut vero quia. Corrupti cupiditate consectetur deleniti consequatur voluptatibus neque similique debitis veritatis. Sunt nulla repellendus neque, reprehenderit saepe obcaecati numquam repudiandae placeat voluptatum pariatur error impedit iure labore, debitis unde minus nemo. Nisi ratione odio veniam nemo voluptas quo a? Nobis animi optio corrupti, omnis esse soluta repudiandae quam enim quis veniam quaerat odit. Sed impedit ipsa molestias harum adipisci, deserunt fugit blanditiis. Recusandae, atque laboriosam! Hic veniam maxime reprehenderit voluptatum aperiam minima quos a laboriosam fuga, eveniet repudiandae eius quam.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim soluta deleniti quibusdam ipsum dolorum repellendus, nulla laborum at ut vero quia. Corrupti cupiditate consectetur deleniti consequatur voluptatibus neque similique debitis veritatis. Sunt nulla repellendus neque, reprehenderit saepe obcaecati numquam repudiandae placeat voluptatum pariatur error impedit iure labore, debitis unde minus nemo. Nisi ratione odio veniam nemo voluptas quo a? Nobis animi optio corrupti, omnis esse soluta repudiandae quam enim quis veniam quaerat odit. Sed impedit ipsa molestias harum adipisci, deserunt fugit blanditiis. Recusandae, atque laboriosam! Hic veniam maxime reprehenderit voluptatum aperiam minima quos a laboriosam fuga, eveniet repudiandae eius quam.</p>
+            </div>
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
