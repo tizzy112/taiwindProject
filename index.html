@@ -36,7 +36,8 @@ keyframes: {
     <div class="w-full p-4">
       <nav class="flex justify-between mr-10">
         <h3 class="ml-10 text-sm capitalize hover:animate-wiggle hover:text-secondaryColor">tizzy</h3>
-        <div class="md:flex sm:flex ">
+        <ion-icon class="cursor-pointer ml-15 md:hidden " name="menu-outline" id="burger"></ion-icon>
+        <div class="hidden max-w-screen-sm:block  md:flex " id="menu">
             <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Home</div>
             <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">About</div>
             <div class="ml-10 text-sm capitalize font-subscript hover:animate-wiggle hover:text-secondaryColor">Skills</div>
@@ -94,5 +95,6 @@ keyframes: {
         </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/index.js"></script>
 </body>
 </html>
